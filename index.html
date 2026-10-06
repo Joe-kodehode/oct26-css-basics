@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics</title>
+
+    <!-- Favicon -->
+    <!-- This is the icon that shows in our browser tab -->
+    <!-- common file types: .png .svg .ico -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!-- External fonts from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Isometra&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link our external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Internal CSS -->
+    <style>
+      p {
+        color: chocolate;
+      }
+
+      button {
+        border: none;
+        color: white;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The 3 types of CSS ✅ -->
+    <!-- How to use CSS ✅ -->
+    <!-- Devtools ✅ -->
+    <!-- Favicon ✅ -->
+    <!-- Getting exteral fonts ✅ -->
+    <!-- Inline vs Block elements ✅ -->
+
+    <!-- inline CSS -->
+    <h1 style="color: red">My website</h1>
+
+    <p style="background-color: burlywood; color: blue">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam labore
+      corrupti consequuntur delectus tempore doloremque iste temporibus et nihil
+      quibusdam?
+    </p>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium culpa
+      rerum soluta alias, rem optio doloribus earum commodi aliquid neque?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, dolores
+      cupiditate. Sint quas, architecto veniam est eaque velit ipsam non?
+    </p>
+
+    <button>Click me!</button>
+
+    <main>
+      <section>
+        <h2>Products</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          molestiae reiciendis quasi amet perspiciatis placeat minima nihil quia
+          fugiat cupiditate.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          molestiae reiciendis quasi amet perspiciatis placeat minima nihil quia
+          fugiat cupiditate.
+        </p>
+      </section>
+
+      <a href="">Click me!</a>
+
+      <!-- Inline and Block elements -->
+
+      <!-- By default, elements are either block or inline. -->
+      <!-- block elements take up the entire row -->
+      <!-- inline elements are happy to share the row with other inline elements -->
+
+      <!-- Block level elements: Headings, containers, p -->
+      <h3>h3 test</h3>
+      <article>Article test</article>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+        tempora.
+      </p>
+
+      <!-- Inline level elements: button, span, a, img -->
+      <button><span>Click</span> me!</button>
+      <button><span>Click</span> me!</button>
+      <button><span>Click</span> me!</button>
+
+      <!-- Inline-block elements - acts like inline, but allows changing heigh/width -->
+
+      <div>Inline-block Example</div>
+    </main>
+
+    <footer>
+      <a
+        href="https://www.flaticon.com/free-icons/animal-kingdom"
+        title="animal kingdom icons"
+        >Animal kingdom icons created by Magnific - Flaticon</a
+      >
+    </footer>
+  </body>
+</html>
